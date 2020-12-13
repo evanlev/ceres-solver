@@ -1,0 +1,33 @@
+// Author: evanlevine138e@gmail.com (Evan Levine)
+
+#ifndef CERES_INTERNAL_MARGINALIZATION_H_
+#define CERES_INTERNAL_MARGINALIZATION_H_
+
+#include <map>
+#include <set>
+
+#include "ceres/internal/eigen.h"
+#include "ceres/problem.h"
+#include "problem_impl.h"
+
+/*
+namespace ceres {
+namespace internal {
+
+void EvaluateProblem(const int num_elimination_blocks,
+                     const std::map<double*, const double*>*
+                         parameter_block_linearization_states,
+                     ProblemImpl* problem, Matrix* jtj, Vector* gradient,
+                     Vector* state_vector);
+
+bool MarginalizeOutVariables(
+    const std::set<double*>& parameter_blocks_to_marginalize, Problem* problem,
+    ResidualBlockId* marginal_factor_id,
+    const std::map<double*, const double*>*
+        parameter_block_linearization_states);
+
+}  // namespace internal
+}  // namespace ceres
+*/
+
+#endif
